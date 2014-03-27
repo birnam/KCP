@@ -21,16 +21,16 @@ if (file_exists(dirname(__FILE__) . '/local-config.php')) {
 
 // Global DB config
 if (!defined('DB_NAME')) {
-	define('DB_NAME', 'kcp');
+	define('DB_NAME', 'kcp_wpdb');
 }
 if (!defined('DB_USER')) {
-	define('DB_USER', 'kcpDBuser');
+	define('DB_USER', 'kcpdbuser');
 }
 if (!defined('DB_PASSWORD')) {
-	define('DB_PASSWORD', 'kcpDBpass');
+	define('DB_PASSWORD', 'kcpdbpass');
 }
 if (!defined('DB_HOST')) {
-	define('DB_HOST', 'localhost');
+	define('DB_HOST', 'mysql.birnamdesigns.com');
 }
 
 /** Database Charset to use in creating database tables. */
